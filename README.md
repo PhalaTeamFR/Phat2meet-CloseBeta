@@ -21,4 +21,21 @@ At the launch of the ClosedBeta for the PhatContract, french ambassadors purpose
 # The Phat2meet
 
 The idea was to rebuild a web2 tool used to know the avalabilities of participants to an event.
-https://www.when2meet.com/
+https://www.when2meet.com/.
+
+"Nobody need to know than i'm available each monday at 1pm"
+
+To build the Phat2meet we split the team in 2 to build the FrontEnd & the BackEnd.
+
+Our FrontEnd is devellop in React and integrates the sdk from @polkadot/extension-dapp, the polkadot API and the phalaNetwork SDK.
+Thanks @ricardo-eth for the incredible work you delivered and @arnobase for your help about the Phala SDK integration.
+
+For the BackEnd, the 3 first weeks was complicated. As begginers with Rust & ink! we began to study the Phat-Hello.
+We learn how to install an rust environement with cargo, compile a PhatContract and import it in the [closebeta UI](phat-cb.phala.network)
+After that we created our first PhatContact to write and read a data onChain and then in a S3 storage.
+Indeed, for our project we would to store our datas in a Simple Storage Service to try the Http request ✅, the gain in speed of off-chain processing ✅. but also, to make an idea by ourselves concerning the security and the privacy ✅.
+This period need from us a long time to fight against dependencies and noobs errors. And the passage from the Ink3! to Ink4! don't facilitate our game.
+once these first steps have been taken in large part and thanks to @Janemake our Phat2Meet project could start to build.
+
+## How it work 
+- ### The implementation
