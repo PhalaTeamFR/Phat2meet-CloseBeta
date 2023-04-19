@@ -20,4 +20,5 @@ At the launch of the ClosedBeta for the PhatContract, french ambassadors purpose
 
 # The Phat2meet
 
-The idea is to rebuild a tool 
+The idea was to rebuild a web2 tool used to know the avalabilities of participants to an event.
+https://www.when2meet.com/
