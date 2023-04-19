@@ -13,10 +13,10 @@ Phala proposes a Closed Beta prize pool to encourage the engagement,  and this r
 <a href="https://linktr.ee/phalafr"><img align="right" width="160" alt="Capture d’écran 2023-01-17 093826" src="https://user-images.githubusercontent.com/16654460/233196636-bbcc60be-f6fe-4565-b9ed-474582d2e5ab.png">
 
 The PhalaTeamFr is the french team organized by the french ambassadors for PhalaNetwork.
-Our community is organised around several place where anyone who want to understand the power of the project can follow, discuss, train or share about it.
+Our community is spans across various platforms where anyone can follow, discuss, train or share about PhalaNetwork.
 We are present on [Telegram](https://t.me/phala_french), [Discord](https://discord.io/PhalaTeamFr), [Twitter](https://twitter.com/phala_fr), [Youtube](https://www.youtube.com/@phalafr?sub_confirmation=1), [Twitch](https://www.twitch.tv/phalanetworkfr), [github](https://github.com/PhalaTeamFR) and [medium](https://medium.com/phala-fran%C3%A7ais).
   
-At the launch of the ClosedBeta for the PhatContract, french ambassadors purpose to constitute a team to represent our community in this challenge. That was really ambitious at the beguinning because nobody in participants had knowledges in Blockchain developement and with the language Rust. To organize our project and show our progress to the french community, each wednesday at 21h since the 8th february we oraganized 11 online events on the fr discord.
+During the launch of the ClosedBeta for the PhatContract, the french ambassadors purpose formed a team to represent our community in this challenge. That was really ambitious because nobody in participants had knowledges in Blockchain developement and with the language Rust. To organize our project and show our progress to the french community, each wednesday at 21h since the 8th february we oraganized 11 online events on the fr discord.
 
 # The Phat2meet
 
