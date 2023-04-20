@@ -17,6 +17,12 @@ Our community is spans across various platforms where anyone can follow, discuss
 We are present on [Telegram](https://t.me/phala_french), [Discord](https://discord.io/PhalaTeamFr), [Twitter](https://twitter.com/phala_fr), [Youtube](https://www.youtube.com/@phalafr?sub_confirmation=1), [Twitch](https://www.twitch.tv/phalanetworkfr), [github](https://github.com/PhalaTeamFR) and [medium](https://medium.com/phala-fran%C3%A7ais).
   
 During the launch of the ClosedBeta for the PhatContract, the french ambassadors purpose formed a team to represent our community in this challenge. That was really ambitious because nobody in participants had knowledges in Blockchain developement and with the language Rust. To organize our project and show our progress to the french community, each wednesday at 21h since the 8th february we oraganized 11 online events on the fr discord.
+## Who are the builders : 
+
+| **Ricardo.SRO**   |      Janema      |  tioneb |
+|<img width="111" alt="image" src="https://user-images.githubusercontent.com/16654460/233422910-011e28bb-adc1-40b5-a50e-c530de7c2ca3.png">|:<img width="80" alt="image" src="https://user-images.githubusercontent.com/16654460/233424768-119ba628-9f16-462d-a39e-47c5aaab9bad.png">:|<img width="88" alt="image" src="https://user-images.githubusercontent.com/16654460/233425178-397da1f2-4434-44d9-83bb-91004dd0f345.png">:|
+| "I will discuss it with my team" | "let me 15 minutes" | "it'll be easy" |
+
 
 # The Phat2meet
 
