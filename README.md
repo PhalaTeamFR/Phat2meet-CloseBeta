@@ -20,7 +20,8 @@ During the launch of the ClosedBeta for the PhatContract, the french ambassadors
 ## Who are the builders : 
 
 | **Ricardo.SRO**   |      Janema      |  tioneb |
-|<img width="111" alt="image" src="https://user-images.githubusercontent.com/16654460/233422910-011e28bb-adc1-40b5-a50e-c530de7c2ca3.png">|:<img width="80" alt="image" src="https://user-images.githubusercontent.com/16654460/233424768-119ba628-9f16-462d-a39e-47c5aaab9bad.png">:|<img width="88" alt="image" src="https://user-images.githubusercontent.com/16654460/233425178-397da1f2-4434-44d9-83bb-91004dd0f345.png">:|
+|----------|:-------------:|------:|
+|<img width="111" alt="image" src="https://user-images.githubusercontent.com/16654460/233422910-011e28bb-adc1-40b5-a50e-c530de7c2ca3.png">|<img width="80" alt="image" src="https://user-images.githubusercontent.com/16654460/233424768-119ba628-9f16-462d-a39e-47c5aaab9bad.png">|<img width="88" alt="image" src="https://user-images.githubusercontent.com/16654460/233425178-397da1f2-4434-44d9-83bb-91004dd0f345.png">|
 | "I will discuss it with my team" | "let me 15 minutes" | "it'll be easy" |
 
 
