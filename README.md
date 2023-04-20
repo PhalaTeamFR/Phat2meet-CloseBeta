@@ -17,14 +17,25 @@ Our community is spans across various platforms where anyone can follow, discuss
 We are present on [Telegram](https://t.me/phala_french), [Discord](https://discord.io/PhalaTeamFr), [Twitter](https://twitter.com/phala_fr), [Youtube](https://www.youtube.com/@phalafr?sub_confirmation=1), [Twitch](https://www.twitch.tv/phalanetworkfr), [github](https://github.com/PhalaTeamFR) and [medium](https://medium.com/phala-fran%C3%A7ais).
   
 During the launch of the ClosedBeta for the PhatContract, the french ambassadors purpose formed a team to represent our community in this challenge. That was really ambitious because nobody in participants had knowledges in Blockchain developement and with the language Rust. To organize our project and show our progress to the french community, each wednesday at 21h since the 8th february we oraganized 11 online events on the fr discord.
-## Who are the builders : 
 
-| **Ricardo.SRO**   |      Janema      |  tioneb |
-|----------|:-------------:|------:|
-|<img width="111" alt="image" src="https://user-images.githubusercontent.com/16654460/233422910-011e28bb-adc1-40b5-a50e-c530de7c2ca3.png">|<img width="80" alt="image" src="https://user-images.githubusercontent.com/16654460/233424768-119ba628-9f16-462d-a39e-47c5aaab9bad.png">|<img width="88" alt="image" src="https://user-images.githubusercontent.com/16654460/233425178-397da1f2-4434-44d9-83bb-91004dd0f345.png">|
-| "I will discuss it with my team" | "let me 15 minutes" | "it'll be easy" |
+## Who are the participants
+| **Ricardo.SRO**|**Janema**|**tioneb**|**Arηo**|
+|----------|:-------------:|:-------------:|------:|
+|<p align="middle"><img width="111" alt="image" src="https://user-images.githubusercontent.com/16654460/233422910-011e28bb-adc1-40b5-a50e-c530de7c2ca3.png"></p>|<p align="middle"><img width="80" alt="image" src="https://user-images.githubusercontent.com/16654460/233424768-119ba628-9f16-462d-a39e-47c5aaab9bad.png"></p>|<p align="middle"><img width="88" alt="image" src="https://user-images.githubusercontent.com/16654460/233425178-397da1f2-4434-44d9-83bb-91004dd0f345.png"></p>|<p align="middle"><img width="82" alt="image" src="https://user-images.githubusercontent.com/16654460/233429282-80e7f34f-94b5-4d33-a9e5-5ba480c4077c.png"></p>| 
+| "I will discuss it with my team" | "let me 15 minutes !" | "it'll be easy !" | "I pass quickly"</br> a few moment later.... |
 
+| **Guiguou**                  | 
+|----------------------------------|
+| <p align="middle"><img width="74" alt="image" src="https://user-images.githubusercontent.com/16654460/233433015-4d6080bd-5afb-44c4-b03c-71ec21f7ca9d.png"></p>                                 |
+| "get into the habit of coding cleanly" |
 
+## Thanks to our supporters who was really presents the wednesday nights :  
+
+| **Rom1.io**|**𝓓𝓻𝓢𝓱𝓾𝓴**|**GatorKorps**|**Arηo**|
+|----------|:-------------:|:-------------:|------:|
+|<p align="middle"><img width="79" alt="image" src="https://user-images.githubusercontent.com/16654460/233434495-edd74b12-e594-4d05-b366-4998eef82143.png"></p>|<p align="middle"><img width="101" alt="image" src="https://user-images.githubusercontent.com/16654460/233434960-7d6d95ec-9eb0-4482-ad64-1229b446f2b4.png"></p>|<p align="middle"><img width="123" alt="image" src="https://user-images.githubusercontent.com/16654460/233435722-70d38449-f075-45ee-9549-6b856f88c92e.png"></p>|<p align="middle"><img width="82" alt="image" src="https://user-images.githubusercontent.com/16654460/233429282-80e7f34f-94b5-4d33-a9e5-5ba480c4077c.png"></p>| 
+| "YoYoYoYo !!!!" | "Figma will save us !" | "Don't sell the crocodile skin,</br>no, don't sell it" | "I pass quickly" a few moment later.... |
+  
 # The Phat2meet
 
 The idea was to rebuild a web2 tool used to know the avalabilities of participants to an event.
