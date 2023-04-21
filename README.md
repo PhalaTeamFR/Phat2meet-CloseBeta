@@ -1,222 +1,278 @@
-# The ClosedBeta of PhalaNetwork
+<div>
+<div align="center">
+  <img alt="Welcome Phat2Meet" src="https://gateway.pinata.cloud/ipfs/QmbG7B88PD33AYTnSVMEdsKK3RaZUGc942cxQCvbG5rHc7">
+  <br>
+  <br>
+  </div>
+    <div align="center">
+    <a href="#about-phat">About Phat2Meet</a> 
+      |
+    <a href="#letsgo">Let's start</a>
+      |
+    <a href="#process">Process</a>
+      |
+    <a href="#about-team">About Teams</a>
+  </div>
+  <br>
 
-<a href="https://wiki.phala.network/en-us/build/general/intro/"><img align="right" width="320" style="margin-left: 20px" src="https://user-images.githubusercontent.com/16654460/233195645-1819d837-75b9-4406-affb-172236f187d6.png"></a>
+  <img alt="View Phat2Meet" src="https://gateway.pinata.cloud/ipfs/QmTzKKk9ekJHrpayJ9AANqVqSYzwXMp6e5t7BVJQPohGrk">
+</div>
 
-Phat Contract Closed Beta is launched before the release of [Phat Contract](https://wiki.phala.network/en-us/build/general/intro/) on Phala mainnet. The aim of it is to monitor the experience of developers, identify any potential issues, and then address them in order to improve the quality of our service.
+----
 
-Both Phala's partner projects and individual developers are involved in this test. The contents to experience in the Closed Beta is listed in our [wiki](https://wiki.phala.network/en-us/build/general/closed-beta/). Individual developers need to apply for the test first by filling in this [form](https://forms.gle/sbCDHfu7t9SNvytB7).
+<div>
+  <img id="about-phat" alt="About Phat2Meet" src="https://gateway.pinata.cloud/ipfs/QmRd5ov9pknwimq9kFxpfsWRG5qs1MAzB7tdtAUemTgLvj">
 
-Phala proposes a Closed Beta prize pool to encourage the engagement,  and this repository is for individual developers to submit their projects to win the rewards.
+  <a href="https://wiki.phala.network/en-us/build/general/intro/"><img align="right" width="320" style="margin-left: 20px" src="https://user-images.githubusercontent.com/16654460/233195645-1819d837-75b9-4406-affb-172236f187d6.png"></a>
 
-# PhalaTeamFR
 
-<a href="https://linktr.ee/phalafr"><img align="right" width="160" alt="Capture d’écran 2023-01-17 093826" src="https://user-images.githubusercontent.com/16654460/233196636-bbcc60be-f6fe-4565-b9ed-474582d2e5ab.png">
+  <p><b>Phat2Meet</b> is an online platform built on web3 technology, similar to <a href="https://www.when2meet.com/">when2meet</a>, aimed at facilitating the management of participant availability for an event.
 
-The PhalaTeamFr is the french team organized by the french ambassadors for PhalaNetwork.
-Our community is spans across various platforms where anyone can follow, discuss, train or share about PhalaNetwork.
-We are present on [Telegram](https://t.me/phala_french), [Discord](https://discord.io/PhalaTeamFr), [Twitter](https://twitter.com/phala_fr), [Youtube](https://www.youtube.com/@phalafr?sub_confirmation=1), [Twitch](https://www.twitch.tv/phalanetworkfr), [github](https://github.com/PhalaTeamFR) and [medium](https://medium.com/phala-fran%C3%A7ais).
-  
-During the launch of the ClosedBeta for the PhatContract, the french ambassadors purpose formed a team to represent our community in this challenge. That was really ambitious because nobody in participants had knowledges in Blockchain developement and with the language Rust. To organize our project and show our progress to the french community, each wednesday at 21h since the 8th february we oraganized 11 online events on the fr discord.
+  The main objective of this project is to preserve the confidentiality of each participant's availability while providing a simple and practical solution for event organizers. By using web3 technology, we are able to ensure the confidentiality of participant data while providing a smooth and user-friendly experience.
 
-## Who are the participants
-| **Ricardo.SRO**|**Janema**|**tioneb**|**Arηo**|
-|----------|:-------------:|:-------------:|------:|
-|<p align="middle"><img width="111" alt="image" src="https://user-images.githubusercontent.com/16654460/233422910-011e28bb-adc1-40b5-a50e-c530de7c2ca3.png"></p>|<p align="middle"><img width="80" alt="image" src="https://user-images.githubusercontent.com/16654460/233424768-119ba628-9f16-462d-a39e-47c5aaab9bad.png"></p>|<p align="middle"><img width="88" alt="image" src="https://user-images.githubusercontent.com/16654460/233425178-397da1f2-4434-44d9-83bb-91004dd0f345.png"></p>|<p align="middle"><img width="82" alt="image" src="https://user-images.githubusercontent.com/16654460/233429282-80e7f34f-94b5-4d33-a9e5-5ba480c4077c.png"></p>| 
-| "I will discuss it with my team" | "let me 15 minutes !" | "it'll be easy !" | "I pass quickly"</br> a few moment later.... |
+  The Phat2Meet platform allows users to select the time slots during which they are available for an event while protecting their confidentiality. Event organizers can easily check the availability of participants and choose the most appropriate time slot for the event.
 
-| **Guigou**                  | 
-|----------------------------------|
-| <p align="middle"><img width="74" alt="image" src="https://user-images.githubusercontent.com/16654460/233433015-4d6080bd-5afb-44c4-b03c-71ec21f7ca9d.png"></p>                                 |
-| "get into the habit of coding cleanly" |
+  Phat2Meet uses the Phat Contract to ensure data confidentiality and data encrypted and stored and S3 Storage using pink dedicated crate Contract. For different use cases, the owner will always have access to the data, but others may or may not have access depending on the specified settings. For example : 
+  - Use case 1: only the owner will have access to all the availibility and the user will only have access to his own availibility, 
+  - Use case 2: the data will only be visible by invited contributors, 
+  - Use case 3: All the contributors will have access to all availibility.
 
-## Thanks to our supporters who was really presents the wednesday nights :  
+  We have developed a POC with use case 3 to demonstrate the power and flexibility of the Phat Contract.
+ </p>
 
-| **Rom1.io**|**𝓓𝓻𝓢𝓱𝓾𝓴**|**GatorKorps**|**Arηo**|
-|----------|:-------------:|:-------------:|------:|
-|<p align="middle"><img width="79" alt="image" src="https://user-images.githubusercontent.com/16654460/233434495-edd74b12-e594-4d05-b366-4998eef82143.png"></p>|<p align="middle"><img width="101" alt="image" src="https://user-images.githubusercontent.com/16654460/233434960-7d6d95ec-9eb0-4482-ad64-1229b446f2b4.png"></p>|<p align="middle"><img width="123" alt="image" src="https://user-images.githubusercontent.com/16654460/233435722-70d38449-f075-45ee-9549-6b856f88c92e.png"></p>|<p align="middle"><img width="82" alt="image" src="https://user-images.githubusercontent.com/16654460/233429282-80e7f34f-94b5-4d33-a9e5-5ba480c4077c.png"></p>| 
-| "YoYoYoYo !!!!" | "Figma will save us !" | "Don't sell the crocodile skin,</br>no, don't sell it" | "I pass quickly" a few moment later.... |
-  
-# The Phat2meet
+  <p> <b>More information:</b> </p>
+    <ul>
+    <li>Website - <a href="https://phat2meet-closedbeta-ui.netlify.app/">PHAT2MEET</a></li>
+    <li>GitHub Repositories:</li>
+    <ul>
+      <li>Phat2Meet - <a href="https://github.com/PhalaTeamFR/Phat2meet-ClosedBeta">Phat2meet-ClosedBeta</a></li>
+      <li>Front - <a href="https://github.com/PhalaTeamFR/Phat2meet-ClosedBeta/tree/main/Phat2meet-UI">Phat2Meet - UI</a></li>
+      <li>Contracts - <a href="https://github.com/PhalaTeamFR/Phat2meet-ClosedBeta/tree/main/Phat2meet-Contract">Phat2Meet - Contracts</a></li>
+    </ul>
+  </ul>
+</div>
 
-The idea was to rebuild a web2 tool used to know the avalabilities of participants to an event.
-https://www.when2meet.com/.
+----
 
-"Nobody need to know than i'm available each monday at 1pm"
+<img id="letsgo" alt="Let's Go" src="https://gateway.pinata.cloud/ipfs/QmbjUT4rVNGkUaD14HCG1zaEGGdAD52qdyhbd8LZqzpj4x">
 
-To build the Phat2meet we split the team in 2 to build the FrontEnd & the BackEnd.
+<!-- Pre Requierment -->
 
-Our FrontEnd is devellop in React and integrates the sdk from @polkadot/extension-dapp, the polkadot API and the phalaNetwork SDK.
-Thanks @ricardo-eth for the incredible work you delivered and @arnobase for your help about the Phala SDK integration.
+## Phat Contract pre-requirements
 
-For the BackEnd, the 3 first weeks was complicated. As begginers with Rust & ink! we began to study the Phat-Hello.
-We learn how to install an rust environement with cargo, compile a PhatContract and import it in the [closebeta UI](phat-cb.phala.network)
-After that we created our first PhatContact to write and read a data onChain and then in a S3 storage.
-Indeed, for our project we would to store our datas in a Simple Storage Service to try the Http request ✅, the gain in speed of off-chain processing ✅. but also, to make an idea by ourselves concerning the security and the privacy ✅.
-This period need from us a long time to fight against dependencies and noobs errors. And the passage from the Ink3! to Ink4! don't facilitate our game.
-once these first steps have been taken in large part and thanks to @Janemake our Phat2Meet project could start to build.
+<a href="https://wiki.phala.network/en-us/build/stateless/setup/">Phat Contract Environment Setup</a>
 
-## How it work 
-- ### The constructor.
-At the implementation of the Phat2Meet PhatContract some variables are declared onChain like the S3 connexion informations :
-        
-  ```
-  #[ink(constructor)]
-  pub fn default() -> Self {
-            Self{
-                admin: Self::env().caller(),
-                s3_access: Some("YOUR_ACCESS_key".to_string()),
-                s3_secret: Some("YOUR_SECRET_KEY".to_string()),
-                s3_bucket: "phat2meet".to_string(),
-                platform: "storj".to_string(),
-                region: "us-east-1".to_string(),
-                last_meeting_id: 0,
-                modif_date: Self::env().block_timestamp()
-            }
-}
+## Clone repository on GitHub
+
+You must start by cloning our Github repository [Phat2meet-ClosedBeta](https://github.com/PhalaTeamFR/Phat2meet-ClosedBeta).
+
+***SSH clone:***
+
+```
+$ git clone git@github.com:PhalaTeamFR/Phat2meet-ClosedBeta.git
+$ cd Phat2meet-ClosedBeta
+```
+
+***or HTTPS clone:*** 
+
+```
+$ git clone https://github.com/PhalaTeamFR/Phat2meet-ClosedBeta.git
+$ cd Phat2meet-ClosedBeta
+```
+
+<!-- Build Contract -->
+
+## Setup Phat Contract
+
+```
+$ cd Phat2meet-ClosedBeta/Phat2meet-contracts/
+$ cargo contract build
+```
+
+Once the build is finished, go to the ``./target/ink`` folder and get the following files: 
+
+- ``phat2meet.contract`` (To initialize our contract with the Phala Phat Contract UI)
+- ``phat2meet.json`` (To interconnect our contract with the Phat2Meet UI)
+
+Once the files are saved, go to the <a href="https://phat-cb.phala.network/">Phala PhatContract UI</a> to initialize your contract
+
+
+## Contract initialization
+
+ <p><b>/!\ To use the <a href="https://phat-cb.phala.network/">Phala PhatContract UI</a></b>, you need to have Phala Test tokens. If you don't have any, you can get them on the Phala Test Network by following the instructions in the <a href="https://wiki.phala.network/en-us/build/getting-started/deploy-contract/#claim-test-tokens">official PhalaNetwork documentation</a> or ask directly on the <a href="https://discord.gg/phala">Discord</a>.
+  </p>
+
+<img alt="Step 1 and 2 contract" src="https://gateway.pinata.cloud/ipfs/QmPcCGjw3tTSvfov7515rGNPXAFTsFjQqCL9YqsjHhj35F">
+
+- **Step 1:** Connect to the Phala PhatContract UI with your wallet 
+- **Step 2:** Click on the **"Upload"** button 
+
+<img alt="Step 3 contract" src="https://gateway.pinata.cloud/ipfs/QmcndFCaNAsN5tPSt4PVBrsDekJy1ane4A3igJ4RXSARt4">
+
+- **Step 3:** Add the file ``phat2meet.contract`` retrieved earlier and click on the button **"Submit"**, sign with your wallet.
  
-```
-The setting of s3 connexion is apply by the function pub fn init_param()
+<img alt="Step 4 and 5 contract" src="https://gateway.pinata.cloud/ipfs/QmP2D9ux4Y5NaHGuU1Fjn8BXBQUF3a7WtGWQc7VAJF4JU7">
 
-```
-#[ink(message)]
-pub fn init_param(
-            &mut self,
-            s3_secret_key: String,
-            s3_access_key: String,
-            s3_platform: String,
-            s3_region: String,
-            s3_bucket: String
-        ) -> Result<String> {
-            if Self::env().caller() != self.admin {
-                return Err(Error::NoPermissions);
-            }
-            self.s3_access = Some(s3_access_key);
-            self.s3_secret = Some(s3_secret_key);
-            self.platform  = s3_platform;
-            self.region = s3_region;
-            self.s3_bucket = s3_bucket;
-        
-            Self::env().emit_event(ParamUpdated {
-                update_date: Self::env().block_timestamp(),
-            });
-            Ok("Secret keys updated".to_string())
-  }
-```  
+- **Step 4:** On the main Dashboard, click on **"Init_param"** for initialize your S3 information.
+- **Step 5:** Add your S3 login information in the corresponding fields and click on **"Run"**.
 
-  - ### The management of the s3 storage.
-  Our datas which are stored in the S3 storage are mananged by the Phatconct thanks to 2 functions (Put & Get).
-```#[ink(message)]
-        pub fn put_object_str(&self, object_key: String, payload: String) -> Result<()> {
-        }
-```
-The Put function reiceve 2 parameters Object and payload.
-The Object is the name of the file in the S3 will content datas transmited in the payload variable. The payload datas will be received as string in a json format.
-Before to be sent datas are encrypted.
-```
-  // Generate key and nonce
-            let key_bytes: Vec<u8> = signing::derive_sr25519_key(object_key.as_bytes())[..32].to_vec();
-            let key: &GenericArray<u8, U32> = GenericArray::from_slice(&key_bytes);
-            let nonce_bytes: Vec<u8> = self.s3_access
-                                            .as_ref()
-                                            .unwrap()
-                                            .as_bytes()[..12]
-                                            .to_vec();
-            let nonce: &GenericArray<u8, U12> = Nonce::<Aes256GcmSiv>::from_slice(&nonce_bytes);
+<img alt="Step 6 and 7 contract" src="https://gateway.pinata.cloud/ipfs/QmVHhJn2kHyEbq3PUuq623hYNyH2YDtK877RSwZ82fgZLq">
 
-            // Encrypt payload
-            let cipher = Aes256GcmSiv::new(key.into());
-            let encrypted_bytes: Vec<u8> = cipher.encrypt(nonce, payload.as_ref()).unwrap();
-  ```
-At the reception of datas from the S3, it will be decrypted and restitute to the computer as string in a json format too.
+- **Step 6:** On the main Dashboard, click on **"create_meeting"** for create a new meeting.
+- **Step 7:** Fill in the field **json_meeting_file** according to the JSON format below and click on **"Run"**
 
-```
-  let Ok(get_response) = s3.get(&self.s3_bucket.as_str(), &object_key.as_str()) else {return Err(Error::S3ConnectionFailed);};
-
-            let key_bytes: Vec<u8> = signing::derive_sr25519_key(object_key.as_bytes())[..32].to_vec();
-            let key: &GenericArray<u8, U32> = GenericArray::from_slice(&key_bytes);
-            let nonce_bytes: Vec<u8> = self.s3_access
-                                                        .as_ref()
-                                                        .unwrap()
-                                                        .as_bytes()[..12]
-                                                        .to_vec();
-            let nonce: &GenericArray<u8, U12> = Nonce::<Aes256GcmSiv>::from_slice(&nonce_bytes);   
-
-            // Decrypt payload
-            let cipher = Aes256GcmSiv::new(key.into());
-            let decrypted_byte = cipher.decrypt(&nonce, &*get_response)
-                                       .or(Err(Error::DecryptionFailed)).unwrap();
-            // debug_println!("Decrypted result: {:?}", decrypted_byte);
-
-            Ok(format!("{}", String::from_utf8_lossy(&decrypted_byte))) 
-  ```  
-- ### The management of our meetings.
-The first function is `/// Create a new meeting`.
-At the creation of a new meeting we set a collection of slots that define periodes when users can apply theire availabilities.
-```
-for item in result.slots_ranges.clone() {
-                    if item.start >= item.end {
-                        return Err(Error::InvalidDaySlot("Start should be higher than end date".to_string()));
-                    }
-                } 
-
-                for item in result.hour_ranges.clone() {
-                    if item.start >= item.end {
-                        return Err(Error::InvalidHourSlot("Start hour should be higher than end hour".to_string()));
-                    }
-                }
-                
-                let copy_slots: Vec<_> = result.slots_ranges.iter().map(|x| x.clone()).collect();
-                let copy_hours: Vec<_> =  result.hour_ranges.iter().map(|x| x.clone()).collect();
-
-                let new_meeting = Meeting {
-                                    meeting_id: self.last_meeting_id + 1,
-                                    name: result.name,
-                                    description:result.description,
-                                    owner: format!("{:?}", Self::env().caller()),
-                                    result_date: result.result_date,
-                                    slots_ranges: copy_slots,
-                                    hour_ranges: copy_hours,
-                                    meeting_state: MeetingState::MeetingCreated,
-                                    slot_state: SlotsState::SlotsOpen,
-                                    participants: Vec::new(),
-                                    created_by: result.created_by,
-                                    creation_date: Self::env().block_timestamp()
-                };
-                self.insert_meeting(&new_meeting);
-  ....
+```json
+{
+  "name": "Create Meeting #1",  
+  "description": "TestValue",  
+  "result_date": 1679498180,  
+  "slots_ranges": [
+    {
+      "start": 1681084999,
+      "end": 1681257599
+    },{
+      "start": 1681344000, 
+      "end": 1681948799
+      }
+    ],  
+  "hour_ranges": 
+    [        
+      {
+          "start": "1400", 
+          "end": "1900"
+      }
+    ],  
+  "created_by": "Change"
 }
-```    
-This new meeting is recorded in the S3 storage and can be updated : 
 ```
-        fn insert_meeting(&mut self, meeting: &Meeting)  {
-            // Serialize it to a JSON string.
-            // debug_println!(" ----- Insert Meeting ----- :\n {:?}", meeting);
-            debug_println!(" ----- Insert Meeting ----- : ");
-            let meeting_string:String = pink_json::ser::to_string(&meeting).unwrap_or_default();
-            // debug_println!(" ////////// Meeting String//////////:\n {:?}", meeting_string);
-            let obj_key = format!("{}{}", "txn_create_".to_string(), meeting.meeting_id);
-            debug_println!(" ////////// Meeting object //////////:\n {:?}", obj_key);
-            // self.meetings_descr.insert(meeting_id, name);
-            self.put_object_str(obj_key, meeting_string)
-                .or(Err(Error::S3ConnectionFailed));
-            debug_println!(" ============== Meeting Saved ============== ");
-        }
+
+**Congratulations !** Your meeting are was created
+
+<!-- Instantiate Phat Contract -->
+
+## Instantiate Phat Contract in Phat2Meet UI
+
+- **Step1:** After getting the above ``phat2meet.json`` file, you will have to add it in the ``./Phat2meet-ClosedBeta/Phat2meet-ui/src/contract/`` folder
+
+<br>
+
+- **Step2:** You will have to modify the contract address in the file ``./Phat2meet-ClosedBeta/Phat2meet-ui/src/context/ContractCall.jsx`` line 84 
+
+```javascript
+      const contractId = "0xfcfe1813af28dda3933cba418ea45acd6bd7188d5b1a0108e83ec1d14fa8f290"
+```
+
+**Congratulations !** Your Phat contract adresse as updated in Phat2Meet UI
+
+<!-- Installation UI -->
+
+## Install the dependencies in Phat2Meet UI
+
+```
+$ cd Phat2meet-ClosedBeta/Phat2meet-UI/
+$ yarn install
+```
+
+**Congratulations !** Clone and the dependencies are well installed
 
 
-        fn update_meeting(&mut self, meeting: &Meeting, obj_value: String) -> Result<()> {
-            // Serialize it to a JSON string.
-            debug_println!(" ----- Update Meeting ----- :");
-            // debug_println!(" ----- Update Meeting ----- :\n {:?}", meeting);
-            let meeting_string:String = pink_json::ser::to_string(&meeting).unwrap_or_default();
-            debug_println!(" ----- From Struct to Meeting ----- :");
-            // debug_println!(" ////////// Meeting String //////////:\n {:?}", meeting_string);
-            let Ok(_result1) = self.put_object_str(obj_value, meeting_string.clone()) else {return Err(Error::S3ConnectionFailed);};
-                                // .or(Err(Error::S3ConnectionFailed));
-            
-            debug_println!(" ============== Meeting Updated ============== \n {:#?}", meeting_string);
-            Ok(())
-        }
-``` 
-  - ### The management of the slots.
-In the same way we recorded a new meeting we recorded avalabilities for an event from users who fill the timeboard.
-This function is the most complex of our Phat2Meet Phat contract and it seems to me that it is not very useful to put it here, so much it is long and deserves that you go to see it here :    
+## Launch the local server
+
+To launch the site locally type the following command:
+
+```
+$ yarn dev
+```
+
+```js
+ VITE v4.1.1  ready in 522 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h to show help
+```
+
+/!\ The *localhost:5173* address is specific to my local configuration. Please refer to your local network configuration
+
+----
+
+<div>
+  <img id="process" alt="Process Phat2Meet" src="https://gateway.pinata.cloud/ipfs/QmeH1HD1J8VvtzgAi7hrWgdFh6zHLxEbboP25RKgoPdZHA">
+
+  <h3>The creation of the Meeting is generated only by <a href="https://phat-cb.phala.network/">the Phala PhatContract UI</a> (Under development)</h3>
+  <br>
+  <img alt="" src="https://gateway.pinata.cloud/ipfs/QmSk9goaB7b8mns4bUeP9LLFpo9QDoSehr4C1TtvB866nH">
+
+  <p><b>/!\ To use the Phat2Meet platform</b>, you need to have Phala Test tokens. If you don't have any, you can get them on the Phala Test Network by following the instructions in the <a href="https://wiki.phala.network/en-us/build/getting-started/deploy-contract/#claim-test-tokens">official PhalaNetwork documentation</a> or ask directly on the <a href="https://discord.gg/phala">Discord</a>.
+  </p>
+
+
+  <img alt="Step 1 and 2" src="https://gateway.pinata.cloud/ipfs/QmX8b9n5nHTc3gKt8VCD6FxQtFd8VqkgRxRbmrjwd5U3Vx">
+
+  ### Step 1: Wallet Login -> Select a wallet
+  
+  <p>
+  The first step is to connect your wallet to the Phat2Meet platform. To do so, select your preferred wallet from the available options (e.g. Polka.js or Talisman) and log in using your login information
+  </p>
+
+  ### Step 2: Set your Username
+  
+  Once you are logged into your wallet, you can now add your username. Enter the username you would like to use on the platform. Be sure to choose a username that does not contain sensitive personal information, then click <b>"Save"</b>.
+  </p>
+
+  <img alt="Step 3" src="https://gateway.pinata.cloud/ipfs/QmVQ4fTfznEgNtANYP2CszuR6b5zAZcZcwNF4APdGsPQZf" >
+
+  ### Step 3: Choose your time slots
+  
+  The next step is to choose your available time slots for online dating. To do this, click on the <b>"Your Availability"</b> tab and select the hours of the day and days of the week that you are available to meet other members of the community.
+  </p>
+
+  <img alt="" src="https://gateway.pinata.cloud/ipfs/QmUNEsoGP9R5Gy7L6TpWnZ9XMUwZf8LwLdzUr69WgMrGS5">
+  
+  ### Step 4: Check if the slots are good in group
+  
+  Before sending your transaction, check that the slots you have selected are compatible with the slots of other community members. To do this, click on the <b>"Group availability"</b> tab and check that your slots are displayed
+  </p> 
+  
+  <img alt="Step 5" src="https://gateway.pinata.cloud/ipfs/QmV1x2wAYJn6M4UY5E82a9tk28uyduQSn5A3WvT5wjzZoR">
+
+  ### Step 5: Send Tx
+
+  Once you have verified that the time slots are compatible, you can now send your transaction by clicking the <b>"Send TX"</b> button and sign your transaction with your wallet. 
+
+  <b>/!\ Be sure to verify all information before sending the transaction, as it cannot be undone once it has been sent.</b>
+  </p> 
+</div>
+
+----
+
+<div>
+  <img id="about-team" alt="About Teams" src="https://gateway.pinata.cloud/ipfs/QmQU1vQ1RXZqqVuSqkMFqGLXHN8kmH9o6bGgEmp8476dVp">
+
+     
+  <br>
+    <p>The PhalaTeamFr is a French team organized by PhalaNetwork ambassadors. This community is active on several platforms and allows its members to follow PhalaNetwork news, discuss, train or share their experiences.</p>
+
+  <img alt="Team Dev Phat2Meet" src="https://gateway.pinata.cloud/ipfs/QmRwpntgfVToNW2TsZTbsFG53RABs78CJyq4SbbmLjLfm8">
+
+  <p>The Phat2Meet project is initiated by PhalaNetwork France ambassadors, in collaboration with a team of passionate community members. Together we have worked to create an innovative tool that will meet the needs of our community.
+  </p>
+
+  <p>The challenge was great because no one among the participants had any real knowledge of the Rust language. However, our team was determined to meet this challenge and show the French community that we were up to the task.</p>
+
+  <p>Our team is composed of passionate, determined and committed members. We have worked hard to develop our project. We have put in place a rigorous organization to ensure a steady and efficient progress of our project.</p>
+
+  <p>To organize our project and show our progress to the community, we organized 11 online events on our Discord fr, every Wednesday at 9pm since February 8th. These events have been a success and have allowed our team to present our progress, answer questions from the community and receive valuable feedback to improve our project.
+  </p>
+
+  <p>We are proud of what we have accomplished so far and look forward to continuing to work to improve our project and meet the community's expectations.
+  </p>
+
+  <p>We would like to thank all the team members for their dedication and hard work, as well as the French community for their constant support.</p>
+
+  <p>We hope our project will inspire others to get into Blockchain and take on ambitious challenges. Stay tuned for more updates on our exciting project!</p>
+
+  <div align="center">
+    <a href="https://t.me/phala_french">Telegram</a> | <a href="https://discord.io/PhalaTeamFr">Discord</a> | <a href="https://twitter.com/phala_fr">Twitter</a> | <a href="https://www.youtube.com/@phalafr?sub_confirmation=1">Youtube</a> | <a href="https://www.twitch.tv/phalanetworkfr">Twitch</a> | <a href="https://github.com/PhalaTeamFR">GitHub</a> | <a href="https://medium.com/phala-fran%C3%A7ais">Medium</a></p>
+  </div>
+</div>
