@@ -1,0 +1,50 @@
+[package]
+name = "phat2meet"
+version = "0.1.0"
+authors = ["PhalaTeam-FR"]
+edition = "2021"
+
+[profile.release.package.compiler_builtins]
+overflow-checks = false
+
+[dependencies]
+ink = { version = "4", default-features = false}
+# ink_env = { version = "4.1.0", default-features = false }
+
+scale = { package = "parity-scale-codec", version = "3.2.1", default-features = false, features = ["derive"] }
+scale-info = { version = ">=2.3.1, <=2.4.0", default-features = false, features = ["derive"], optional = true }
+hex = { version = "0.4.3", default-features = false, features = ["alloc"] }
+
+serde = { version = "1.0.152", default-features = false, features = ["derive", "alloc"]}
+pink-extension = { version = "0.4", default-features = false }
+# custom pink-json based on the github version
+# pink-json = { path = "./pink-json", default-features = false }
+pink-json = "0.4.0"
+pink-s3 = { version = "0.4.1", default-features = false }
+chrono = { version = "0.4.23", default-features = false, features = ["alloc"] }
+
+# Encryption of data
+aes-gcm-siv = { version = "0.11.1", default-features = false, features = ["aes", "alloc"] }
+cipher = { version = "0.4.3", default-features = false }
+bs58 = { version = "0.4", default-features = false , features = ["alloc"] }
+
+
+[dev-dependencies]
+pink-extension-runtime = "0.4.0"
+
+[lib]
+path = "src/lib.rs"
+
+[features]
+default = ["std"]
+std = [
+    "ink/std",
+    "pink-extension/std",
+    "scale/std",
+    "scale-info/std",
+    "chrono/std",
+    "pink-json/std",
+    "pink-s3/std",
+    "bs58/std"
+]
+ink-as-dependency = []
