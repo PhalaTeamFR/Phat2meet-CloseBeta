@@ -24,7 +24,7 @@ During the launch of the ClosedBeta for the PhatContract, the french ambassadors
 |<p align="middle"><img width="111" alt="image" src="https://user-images.githubusercontent.com/16654460/233422910-011e28bb-adc1-40b5-a50e-c530de7c2ca3.png"></p>|<p align="middle"><img width="80" alt="image" src="https://user-images.githubusercontent.com/16654460/233424768-119ba628-9f16-462d-a39e-47c5aaab9bad.png"></p>|<p align="middle"><img width="88" alt="image" src="https://user-images.githubusercontent.com/16654460/233425178-397da1f2-4434-44d9-83bb-91004dd0f345.png"></p>|<p align="middle"><img width="82" alt="image" src="https://user-images.githubusercontent.com/16654460/233429282-80e7f34f-94b5-4d33-a9e5-5ba480c4077c.png"></p>| 
 | "I will discuss it with my team" | "let me 15 minutes !" | "it'll be easy !" | "I pass quickly"</br> a few moment later.... |
 
-| **Guiguou**                  | 
+| **Guigou**                  | 
 |----------------------------------|
 | <p align="middle"><img width="74" alt="image" src="https://user-images.githubusercontent.com/16654460/233433015-4d6080bd-5afb-44c4-b03c-71ec21f7ca9d.png"></p>                                 |
 | "get into the habit of coding cleanly" |
