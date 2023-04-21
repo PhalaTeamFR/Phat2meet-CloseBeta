@@ -14,7 +14,7 @@ import {
 import { AppContext } from "./ContextProvider"
 import { useEventContext } from './EventContext';
 
-import metadata from '../contrat/metadata.json';
+import metadata from '../contract/phat2meet.json';
 
 import { rpcApiInstanceAtom } from '../components/Atoms/FoundationBase';
 
