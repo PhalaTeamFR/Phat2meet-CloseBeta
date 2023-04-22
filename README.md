@@ -162,7 +162,7 @@ Once the files are saved, go to the <a href="https://phat-cb.phala.network/">Pha
       const contractId = "0xe7a02339c4dc2b233e3d81c06fd30c21a3bfe0f03972513ccd9ee2db508425b4"
 ```
 
-**Congratulations !** Your Phat contract adresse as updated in Phat2Meet UI
+**Congratulations !** Your Phat contract adresse is updated in Phat2Meet UI
 
 <!-- Installation UI -->
 
