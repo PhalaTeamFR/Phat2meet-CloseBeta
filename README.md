@@ -146,7 +146,7 @@ Once the files are saved, go to the <a href="https://phat-cb.phala.network/">Pha
 }
 ```
 
-**Congratulations !** Your meeting are was created
+**Congratulations !** Your meeting is created
 
 <!-- Instantiate Phat Contract -->
 
