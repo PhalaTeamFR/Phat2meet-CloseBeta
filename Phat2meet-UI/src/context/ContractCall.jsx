@@ -81,7 +81,7 @@ export function ContractCall({ user }) {
       //const pruntimeURL="https://phat-fr.01.do/node-1/"
 
       // contract ID on phat-cb (contract address on polkadot.js.org/apps)
-      const contractId = "0xe7a02339c4dc2b233e3d81c06fd30c21a3bfe0f03972513ccd9ee2db508425b4"
+      const contractId = "0xfcfe1813af28dda3933cba418ea45acd6bd7188d5b1a0108e83ec1d14fa8f290"
 
       const phatRegistry = await OnChainRegistry.create(api)
 
