@@ -251,11 +251,11 @@ mod phat2meet {
         pub fn new() -> Self {
             Self{
                 admin: Self::env().caller(),
-                s3_access: Some("jx6rdinb6btci4zvpynj3a6xe6iq".to_string()),
-                s3_secret: Some("j2yt3ghh3gglyyeg2luw2qtolowkyrfomugcze76hddso6ksbxgyo".to_string()),
-                s3_bucket: "phat2meet".to_string(),
-                platform: "storj".to_string(),
-                region: "us-east-1".to_string(),
+                s3_access: Some("YOUR_S3_ACCESS_CODE".to_string()),
+                s3_secret: Some("YOUR_S3_ACCESS_CODE".to_string()),
+                s3_bucket: "YOUR_S3_BUCKET_NAME".to_string(),
+                platform: "YOUR_S3_PLATFORM_NAME".to_string(),
+                region: "YOUR_S3_REGION_CODE".to_string(),
                 last_meeting_id: 0,
                 modif_date: Self::env().block_timestamp()
             }
